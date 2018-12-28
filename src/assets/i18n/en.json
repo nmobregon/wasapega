@@ -9,6 +9,8 @@
 	"welcome2":"All non-contacts you write to, will be saved",
 	"welcome3":"in your browser's local memory and listed here",
 	"history":"Wasapegas history",
-	"delete":"delete"
-	
+	"delete":"delete",
+	"unknown":"Unknown",
+	"name":"Name",
+	"selectCountry":"Select a country"
 }

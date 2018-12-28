@@ -9,6 +9,8 @@
 	"welcome2":"Todos los números a los que les escribas se guardarán",
 	"welcome3":"en la memoria interna del navegador y listada aquí abajo",
 	"history":"Historial de wasapegas",
-	"delete":"eliminar"
-	
+	"delete":"eliminar",
+	"unknown":"Desconocido",
+	"name":"Nombre",
+	"selectCountry":"Seleccione un país"
 }
