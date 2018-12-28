@@ -1,0 +1,144 @@
+
+p[lang]{
+	text-align: right;
+	padding: 1vh 5vw .5vh;
+	background-color: #4B7551;
+	margin: 0;
+}
+header {
+	display: block;	
+	padding: 1vh 0 4vh;
+	margin-bottom: 5vh;
+	background-color: #4B7551;
+}
+header > h1 {
+	text-transform: uppercase;
+}
+main {
+	display: block;
+	text-align: center;
+}
+section {
+	display: block;
+	float: left;
+	width: 67%;
+}
+form {
+	width: 100%;
+	text-align: center;
+}
+input {
+	line-height: 2.5em;
+	font-size: 1.5em;
+	text-align: center;
+	width: 30vw;
+	min-width: 250px;
+    max-width: 100vw !important;
+	border-radius: 15px;
+	border: 0;
+	font-family: monospace;
+	font-weight: bolder;
+}
+input:focus {
+	outline: none !important;
+}
+select {
+	line-height: 3em;
+	font-size: 1.5em;
+	text-align: center;
+	width: 30vw;
+	min-width: 250px;
+    max-width: 100vw !important;
+	border-radius: 15px;
+	border: 0;
+	font-family: monospace;
+	font-weight: bolder;
+	padding: 1vh;
+	display: block;
+	margin: 0 auto 1vh;
+}
+select:focus {
+	outline: none !important;
+}
+select > option {
+	text-align: center;
+}
+button {
+	display: block;
+	width: 20vw;
+	min-width: 150px;
+	margin: 0 auto;
+	margin-top: 3vh;
+	line-height: 2.5em;
+	font-size: 2em;
+	background-color: #4B7551;
+	border-radius: 15px;
+	border: 0;
+	color: white;
+	font-family: monospace;
+}
+aside {
+	display: block;
+	float:left;
+	width: 33%;
+	height: auto;
+	margin-bottom: 5vh;
+}
+aside > h4 {
+	padding-top: 0;
+	margin-top:0;
+	text-align: left;
+	font-size: 1.3em;
+	background: white;
+	color: #4B7551;
+}
+aside > h4 > span {
+	cursor:pointer;
+	color: black;
+}
+aside > ul {
+	list-style-type: none;
+	padding: 0;
+}
+aside > ul > li {
+	text-align: left;
+	cursor: pointer;
+    font-size: 1.1em;
+}
+footer {
+	display:block;
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	background-color: #4B7551;
+	padding: 2vh 0;
+    width: 1020px;
+	max-width: 100vw;
+}
+a {
+	color: white !important;
+}
+footer, h1, h2 {
+	text-align: center;
+}
+label {
+	display: block;
+	font-size: 0.7rem;
+	color: white;
+}
+@media (max-width: 900px) {
+    section {
+        width: 100%;
+    }
+	aside {
+		width: 100%;
+		padding: 5vh 0 1vh;
+	}
+	aside h4 {
+		padding-left: 5vw;
+	}
+	aside > ul > li {
+		font-size: 1.1em;
+		font-weight: bold;
+	}
+}
