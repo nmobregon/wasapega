@@ -29,7 +29,7 @@
       {{ 'welcome3' | translate}}.</h4>
     <h4 *ngIf="historyNumbers" class="title">{{ 'history' | translate}} <span (click)="clean()" title="{{'delete' | translate}}">🗑</span></h4>
     <ul *ngIf="historyNumbers">
-      <li *ngFor="let hist of historyNumbers" (click)="writeTo(hist.number)" title="# {{hist.name || hist.number}} - {{hist.date | amLocale:translate.currentLang | amTimeAgo}}">
+      <li *ngFor="let hist of historyNumbers" (click)="writeTo(hist.number)" title="# {{ hist.tooltip }} - {{hist.date | amLocale:translate.currentLang | amTimeAgo}}">
         # {{hist.name || hist.number}} - {{hist.date | amLocale:translate.currentLang | amTimeAgo}}
       </li>
     </ul>
