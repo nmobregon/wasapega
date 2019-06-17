@@ -12,5 +12,6 @@
 	"delete":"eliminar",
 	"unknown":"Desconocido",
 	"name":"Nombre",
-	"selectCountry":"Seleccione un país"
+	"selectCountry":"Seleccione un país",
+	"optional":"opcional"
 }

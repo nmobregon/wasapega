@@ -18,7 +18,7 @@
       <label for="num">{{ 'phoneNumber' | translate }} *</label>
       <input required type="tel" name="num" [(ngModel)]="num" placeholder="{{'phoneNumber'|translate}}"
         [ngModelOptions]="{standalone: true}" />
-      <label for="name">{{ 'name' | translate }}</label>
+      <label for="name">{{ 'name' | translate }} ({{ 'optional' | translate }})</label>
       <input required type="text" name="name" [(ngModel)]="name" placeholder="{{'name'|translate}}" [ngModelOptions]="{standalone: true}" />
       <button type="button" (click)="send()">{{'send' | translate}}</button>
     </form>
@@ -37,5 +37,5 @@
 </main>
 
 <footer>
-  by <a target="_blank" href="https://thinkup.com.ar/nmobregon" rel="noreferrer">NMO</a> - Argentina - 2018
+  by <a target="_blank" href="https://thinkup.com.ar/contacto" rel="noreferrer">ThinkUp Studios</a> - Argentina - 2019
 </footer>
